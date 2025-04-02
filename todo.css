@@ -1,0 +1,87 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Input Styling */
+input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px; /* Adds space between input and button */
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Button */
+button:hover {
+    background-color: #ff3b3b;
+}
+
+/* List Container Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+/* List Item Styling */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for List Item */
+li:hover {
+    background: #e0e0e0;
+}
+
+/* Delete Button Styling in List Items */
+li button {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Delete Button */
+li button:hover {
+    background-color: #d63031;
+}
